@@ -37,11 +37,6 @@ app.listen(port, () => {
 app.use(express.json()) // habilita o express para receber dados no formato json
 app.use(routes) // habilita as rotas
 
-app.listen(port, () => {
-  console.log(`Servidor executando na porta ${port}`)
-  console.log(`Banco de dados`, dataBase.isInitialized ? 'inicializado' : 'não inicializado')
-})
-
 app.use(cors({
   origin: ['http://localhost:3000', 'https://api-workshop-d9ri.onrender.com/']
 }))
