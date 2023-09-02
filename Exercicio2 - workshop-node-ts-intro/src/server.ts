@@ -43,5 +43,5 @@ app.listen(port, () => {
 })
 
 app.use(cors({
-  origin: ['http://localhost:3000', 'https://meuapp.com']
+  origin: ['http://localhost:3000', 'https://api-workshop-d9ri.onrender.com/']
 }))
