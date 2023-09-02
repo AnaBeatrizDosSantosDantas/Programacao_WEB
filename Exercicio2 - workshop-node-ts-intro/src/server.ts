@@ -37,3 +37,6 @@ app.listen(port, () => {
 app.use(express.json()) // habilita o express para receber dados no formato json
 app.use(routes) // habilita as rotas
 app.use(cors()) // habilita o CORS
+app.use(cors({
+  origin: ['http://localhost:3000', 'https://meuapp.com']
+}))
