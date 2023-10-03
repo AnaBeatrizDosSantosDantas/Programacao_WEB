@@ -1,0 +1,15 @@
+.buttonPendente{
+    margin-left: 70%;
+    margin-right: 1%;
+}
+
+.boxPersonalizado{
+    background-color: #edf2f7;
+    max-width: 50%;
+}
+
+@media screen and (max-width: 1400px) {
+    .buttonPendente{
+        margin-left: 60%;
+    }  
+}

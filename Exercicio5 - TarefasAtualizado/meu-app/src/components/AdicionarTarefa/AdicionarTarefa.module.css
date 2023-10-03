@@ -1,0 +1,14 @@
+.inputPersonalizado{
+max-width: 39%;
+}
+.checkboxPersonalizado{
+    margin-top: 0.5%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+@media screen and (max-width: 1400px) {
+    .inputPersonalizado{
+        max-width: 35.5%;
+    }  
+}
